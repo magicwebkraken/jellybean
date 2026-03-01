@@ -35877,7 +35877,7 @@ const a4 = "https://qqfvezowcmcgpsvmuhuw.supabase.co",
         {
           name: "X Community",
           icon: QC,
-          href: "https://x.com/i/communities/2020059771030892626",
+          href: "https://x.com/jellybean_Erc",
           color: "bg-forest hover:bg-forest-dark",
           desc: "Follow Jellybean",
         },
