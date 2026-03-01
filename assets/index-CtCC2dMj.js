@@ -35742,7 +35742,7 @@ const a4 = "https://qqfvezowcmcgpsvmuhuw.supabase.co",
           icon: WC,
           label: "Liquidity",
           value: "✓",
-          detail: "Locked & Burned",
+          detail: "Burned",
           color: "bg-mushroom",
         },
         {
