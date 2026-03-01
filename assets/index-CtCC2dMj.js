@@ -36319,41 +36319,7 @@ const a4 = "https://qqfvezowcmcgpsvmuhuw.supabase.co",
       { to: "/sanctuary", icon: mb, label: "Sanctuary" },
       { to: "/photo-booth", icon: dp, label: "Photo Booth" },
     ];
-    return p.jsx(z.nav, {
-      className: "fixed top-0 left-0 right-0 z-40 px-4 py-3",
-      initial: { opacity: 0, y: -20 },
-      animate: { opacity: t ? 1 : 0, y: t ? 0 : -60 },
-      transition: { duration: 0.3, ease: "easeInOut" },
-      children: p.jsx("div", {
-        className: "max-w-4xl mx-auto",
-        children: p.jsx("div", {
-          className:
-            "flex items-center justify-center gap-2 bg-cream/80 backdrop-blur-sm rounded-full px-4 py-2 paper-shadow w-fit mx-auto",
-          children: o.map((a) => {
-            const l = e.pathname === a.to;
-            return p.jsxs(
-              Qc,
-              {
-                to: a.to,
-                className: `flex items-center gap-2 px-4 py-2 rounded-full font-body text-sm transition-all duration-300 ${
-                  l
-                    ? "bg-forest text-cream"
-                    : "text-forest-dark hover:bg-forest-light/30"
-                }`,
-                children: [
-                  p.jsx(a.icon, { className: "w-4 h-4" }),
-                  p.jsx("span", {
-                    className: "hidden sm:inline",
-                    children: a.label,
-                  }),
-                ],
-              },
-              a.to
-            );
-          }),
-        }),
-      }),
-    });
+
   },
   C4 = () =>
     p.jsxs("div", {
