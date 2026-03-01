@@ -35875,7 +35875,7 @@ const a4 = "https://qqfvezowcmcgpsvmuhuw.supabase.co",
       t = Ui(e, { once: !0, margin: "-100px" }),
       n = [
         {
-          name: "X Community",
+          name: "Twitter",
           icon: QC,
           href: "https://x.com/jellybean_Erc",
           color: "bg-forest hover:bg-forest-dark",
