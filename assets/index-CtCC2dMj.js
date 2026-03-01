@@ -35711,7 +35711,7 @@ const a4 = "https://qqfvezowcmcgpsvmuhuw.supabase.co",
                 rel: "noopener noreferrer",
                 className:
                   "inline-flex items-center gap-2 px-5 py-2.5 bg-[#AB9FF2] text-white rounded-full font-body hover:bg-[#9580FF] transition-colors paper-shadow",
-                children: [p.jsx(Ig, { className: "w-4 h-4" }), "Get Metamask"],
+                children: ["Get Metamask"],
               }),
               p.jsxs("a", {
                 href: "https://dexscreener.com/ethereum/0xc5f4AD0590d177a14a9050B7536AF19D60455414",
@@ -35719,7 +35719,7 @@ const a4 = "https://qqfvezowcmcgpsvmuhuw.supabase.co",
                 rel: "noopener noreferrer",
                 className:
                   "inline-flex items-center gap-2 px-5 py-2.5 bg-[#1C1C28] text-white rounded-full font-body hover:bg-[#2a2a3a] transition-colors paper-shadow",
-                children: [p.jsx(El, { className: "w-4 h-4" }), "DexScreener"],
+                children: ["DexScreener"],
               }),
             ],
           }),
